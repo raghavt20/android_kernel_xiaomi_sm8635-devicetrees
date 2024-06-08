@@ -44,6 +44,7 @@ endif
 
 ifneq ($(CONFIG_ARCH_QTI_VM), y)
 dtbo-$(CONFIG_ARCH_CLIFFS) += display/cliffs-sde.dtbo \
+		display/peridot-sde-display-mtp-overlay.dtbo \
 		display/cliffs-sde-display-rumi-overlay.dtbo \
 		display/cliffs-sde-display-cdp-overlay.dtbo \
 		display/cliffs-sde-display-rcm-overlay.dtbo \
